@@ -2,7 +2,8 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "cli": {
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "analytics": "3353dd73-20e3-4454-ae2f-13eb59cc0e72"
   },
   "newProjectRoot": "projects",
   "projects": {
@@ -29,9 +30,7 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/styles.scss"
-            ]
+            "styles": ["src/styles.scss", "node_modules/bootstrap/dist/css/bootstrap.min.css"]
           },
           "configurations": {
             "production": {
