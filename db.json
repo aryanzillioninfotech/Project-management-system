@@ -1,14 +1,14 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Admin User",
       "email": "admin@example.com",
       "password": "admin123",
       "role": "admin"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Dev User",
       "email": "dev@example.com",
       "password": "dev123",
@@ -16,11 +16,40 @@
     }
   ],
   "projects": [
-    { "id": 1, "title": "Project Apollo", "description": "First project", "ownerId": 1 },
-    { "id": 2, "title": "Project Zeus", "description": "Second project", "ownerId": 2 }
+    {
+      "id": "1",
+      "title": "Project Apollo",
+      "description": "First project",
+      "ownerId": 1
+    },
+    {
+      "id": "2",
+      "title": "Project Zeus",
+      "description": "Second project",
+      "ownerId": 2
+    },
+    {
+      "id": "3428",
+      "title": "airssist",
+      "description": "",
+      "ownerId": 1
+    }
   ],
   "tasks": [
-    { "id": 1, "projectId": 1, "title": "Init repo", "status": "todo", "assigneeId": 2 },
-    { "id": 2, "projectId": 1, "title": "Design DB", "status": "in-progress", "assigneeId": 1 }
+    {
+      "id": "1",
+      "projectId": 1,
+      "title": "Init repo",
+      "status": "done",
+      "assigneeId": 2,
+      "state": "todo"
+    },
+    {
+      "id": "2",
+      "projectId": 1,
+      "title": "Design DB",
+      "status": "in-progress",
+      "assigneeId": 1
+    }
   ]
 }
